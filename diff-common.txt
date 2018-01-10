@@ -1,0 +1,22 @@
+2839,2848d2838
+<     <message id="52" name="SONAR_RAW_INT">
+<       <description>The sonar data.</description>
+<       <field type="uint32_t" name="time_boot_ms" units="ms">Timestamp (milliseconds since system boot)</field>
+<       <field type="int32_t" name="gpmtw" units="degE2">Mean Temperature of Water, in degrees * 1E2</field>
+<       <field type="int32_t" name="gpdpt" units="mm">Depth of Water, in mm</field>
+<       <field type="int32_t" name="gpvhw_w" units="mm/s">Water Speed, in mm / sec.</field>
+<       <field type="uint16_t" name="gpvhw_h">heading, in degrees </field>
+<       <field type="uint16_t" name="gpmda">heading, in degrees </field>
+<     </message>
+< 
+4050a4041,4050
+>     <message id="52" name="SONAR_RAW_INT">
+>       <description>The sonar data.</description>
+>       <field type="uint64_t" name="time_usec" units="us">Timestamp (microseconds since UNIX epoch or microseconds since system boot)</field>
+>       <field type="int32_t" name="gpmtw" units="degE2">Mean Temperature of Water, in degrees * 1E2</field>
+>       <field type="int32_t" name="gpdpt" units="mm">Depth of Water, in mm</field>
+>       <field type="int32_t" name="gpvhw_w" units="mm/s">Water Speed, in mm / sec.</field>
+>       <field type="uint16_t" name="gpvhw_h">heading, in degrees </field>
+>       <field type="uint16_t" name="gpmda">heading, in degrees </field>
+>     </message>
+> 
